@@ -1,0 +1,23 @@
+From 374c27dd316e1f0c352b7867a411a66bb83f341c Mon Sep 17 00:00:00 2001
+From: bshongwe <dru.da.beat.hustle@gmail.com>
+Date: Mon, 15 Apr 2024 15:39:58 +0000
+Subject: [PATCH] For generating patch file
+
+---
+ testrunner.py | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/testrunner.py b/testrunner.py
+index ae75dec..f96d93b 100644
+--- a/testrunner.py
++++ b/testrunner.py
+@@ -90,3 +90,5 @@ def test_check_credentials3():
+   psw1 = "Password123"
+   psw2 = "Password123"
+   assert check_credentials(email, psw1, psw2) is False
++
++# Meant to generate patch file for submission
+\ No newline at end of file
+-- 
+2.42.0
+
