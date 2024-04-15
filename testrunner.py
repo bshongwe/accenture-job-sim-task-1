@@ -90,3 +90,5 @@ def test_check_credentials3():
   psw1 = "Password123"
   psw2 = "Password123"
   assert check_credentials(email, psw1, psw2) is False
+
+# Meant to generate patch file for submission
